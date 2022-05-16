@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <title>[##_page_title_##]</title>
+  <meta name="title" content="[##_page_title_##]" />
+  <meta charset="utf-8" />
+  <meta name="viewport"
+    content="width=device-width, height=device-height, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+
+  <link rel="alternate" type="application/rss+xml" title="[##_title_##]" href="[##_rss_url_##]" />
+  <link rel="shortcut icon" href="[##_blog_link_##]favicon.ico" />
+
+  <link rel="stylesheet" href="./images/base.css">
+  <link rel="stylesheet" href="./images/common.css">
+  <link rel="stylesheet" href="./images/layout.css">
+  <link rel="stylesheet" href="./images/slick.min.css">
+  <link rel="stylesheet" href="./style.css">
+
+
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.js"></script> -->
+  <script src="//t1.daumcdn.net/tistory_admin/lib/jquery/jquery-1.12.4.min.js"></script>
+  <script src="//t1.daumcdn.net/tistory_admin/assets/skin/common/vh-check.min.js"></script>
+  <script src="./images/common.js"></script>
+  <script src="./images/jquery.waypoints.min.js"></script>
+  <script src="./images/slick.min.js"></script>
+  <script src="./images/slickNav.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Do+Hyeon&family=Kirang+Haerang&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+
+
+</head>
+
+<body id="[##_body_id_##]">
+  <s_t3>
+    <!--container-->
+    <div id="container">
+      <nav class="nav">
+        <div class="logo">
+          <a href="[##_blog_link_##]" title="[##_title_##]" class="link_logo">
+            <s_if_var_logo-image>[##_blog_image_##]</s_if_var_logo-image>
+            <s_not_var_logo-image>[##_title_##]</s_not_var_logo-image>
+          </a>
+        </div>
+        <s_sidebar_element>
+        <div class="gnbWrap">
+          [##_blog_menu_##]
+        </div>
+        </s_sidebar_element>
+       
+        
+        <ul class="link">
+          <li><a href="#">link1</a></li>
+          <li><a href="#">link2</a></li>
+          <li><a href="#">link3</a></li>
+        </ul>
+      </nav>
+      <section class="section">
+      
+        <div class="contentsWrap">
+        <s_list>
+          <s_list_rep>
+            <div class="contentsWrap__content">
+              <s_list_rep_thumbnail>
+                <div class="thumbnail" data-image="[##_list_rep_thumbnail_##]"
+                  style="background-image:url('[##_list_rep_thumbnail_##]')"></div>
+              </s_list_rep_thumbnail>
+              <div class="textouter">
+                <div class="category">[##_list_rep_category_##]</div>
+                <div class="title">[##_list_rep_title_##]</div>
+                <a href="[##_list_rep_link_##]">👀</a>
+              </div>
+            </div>
+          </s_list_rep>
+        </s_list>
+        </div>
+        <div class="detailWrap">
+          <s_article_rep>
+            <s_permalink_article_rep>
+               <div class="titleWrap">
+                 <h2><a href="[##_article_rep_link_##]">[##_article_rep_title_##]</a></h2>
+                 <div class="category">
+                   <a href="[##_article_rep_category_link_##]">[##_article_rep_category_##]</a>
+                 </div>
+                 <div class="date">[##_article_rep_date_##]</div>
+               </div>
+
+               <div class="article">
+                 [##_article_rep_desc_##]
+               </div>
+            </s_permalink_article_rep>
+          </s_article_rep>
+          <s_ad_div>
+            <div class="admin">
+              <a href="[##_s_ad_m_link_##]">수정</a> :
+              <a href="#" onclick="[##_s_ad_m_onclick_##]">수정(창으로)</a> |
+              ([##_s_ad_s1_label_##])→<a href="#" onclick="[##_s_ad_s2_onclick_##]">[##_s_ad_s2_label_##]</a> |
+              <a href="#" onclick="[##_s_ad_t_onclick_##]">관련글(트랙백)</a> |
+              <a href="#" onclick="[##_s_ad_d_onclick_##]">삭제</a>
+            </div>
+          </s_ad_div>
+        </div>
+
+
+   
+
+
+     
+
+      </section>
+    </div>
+    <!--END container-->
+  </s_t3>
+</body>
+
+</html>

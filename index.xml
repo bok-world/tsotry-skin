@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skin>
+  <information>
+    <name>Waggle Waggle</name>
+    <version>1.0.0</version>
+    <description>
+      <![CDATA[개인적인 용도로 사용하기 위한 스킨입니다. @dev__note]]>
+    </description>
+    <license>
+			<![CDATA[자유롭게 수정이 가능하며, 저작권 표시하에 재배포 가능합니다.]]>
+    </license>
+  </information>
+  <author>
+    <name>Bokyoung Kwon</name>
+    <homepage>https://bokartstudio.tistory.com</homepage>
+    <email>rnjsqhrud10@gmail.com</email>
+  </author>
+  <default>
+    <recentEntries>5</recentEntries>
+    <recentComments>5</recentComments>
+    <recentTrackbacks>5</recentTrackbacks>
+    <itemsOnGuestbook>10</itemsOnGuestbook>
+    <tagsInCloud>30</tagsInCloud>
+    <sortInCloud>3</sortInCloud>
+    <expandComment>0</expandComment>
+    <expandTrackback>0</expandTrackback>
+    <lengthOfRecentNotice>25</lengthOfRecentNotice>
+    <lengthOfRecentEntry>27</lengthOfRecentEntry>
+    <lengthOfRecentComment>30</lengthOfRecentComment>
+    <lengthOfRecentTrackback>30</lengthOfRecentTrackback>
+    <lengthOfLink>30</lengthOfLink>
+    <showListOnCategory>1</showListOnCategory>
+    <showListOnArchive>1</showListOnArchive>
+    <commentMessage>
+      <none>댓글이 없습니다.</none>
+      <single>댓글 &lt;span class="cnt"&gt;하나&lt;/span&gt; 달렸습니다.</single>
+    </commentMessage>
+    <trackbackMessage>
+      <none>받은 트랙백이 없고</none>
+      <single>트랙백이 &lt;span class="cnt"&gt;하나&lt;/span&gt;이고</single>
+    </trackbackMessage>
+    <tree>
+      <color>000000</color>
+      <bgColor>ffffff</bgColor>
+      <activeColor>000000</activeColor>
+      <activeBgColor>eeeeee</activeBgColor>
+      <labelLength>27</labelLength>
+      <showValue>1</showValue>
+    </tree>
+    <contentWidth>500</contentWidth>
+  </default>
+  <variables>
+  	<variable>
+			<name>logoImage</name>
+			<label>로고</label>
+			<description></description>
+			<type>IMAGE</type>
+			<option></option>
+			<default></default>
+		</variable>
+  	<variable>
+			<name>footerLink1Name</name>
+			<label>하단 링크1 이름</label>
+			<description></description>
+			<type>STRING</type>
+			<option></option>
+			<default>TISTORY</default>
+		</variable>
+		<variable>
+			<name>footerLink1Url</name>
+			<label>하단 링크1 URL</label>
+			<description></description>
+			<type>STRING</type>
+			<option></option>
+			<default>https://tistory.com</default>
+		</variable>
+		<variable>
+			<name>footerLink2Name</name>
+			<label>하단 링크2 이름</label>
+			<description></description>
+			<type>STRING</type>
+			<option></option>
+			<default></default>
+		</variable>
+		<variable>
+			<name>footerLink2Url</name>
+			<label>하단 링크2 URL</label>
+			<description></description>
+			<type>STRING</type>
+			<option></option>
+			<default></default>
+		</variable>
+		<variable>
+			<name>footerLink3Name</name>
+			<label>하단 링크3 이름</label>
+			<description></description>
+			<type>STRING</type>
+			<option></option>
+			<default></default>
+		</variable>
+		<variable>
+			<name>footerLink3Url</name>
+			<label>하단 링크3 URL</label>
+			<description></description>
+			<type>STRING</type>
+			<option></option>
+			<default></default>
+		</variable>
+  </variables>
+</skin>
