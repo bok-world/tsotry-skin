@@ -7,15 +7,12 @@
   --color-yellow: #ffc52f;
   --color-red: #fe3613;
   --color-blue: #00a3ff;
+  --color-white: rgb(229, 229, 229);
 
-
-
-
-  --sub-font: 'Do Hyeon', sans-serif;
-  --sub-font2: 'Kirang Haerang', cursive;
-  --sub-font3: 'Roboto', sans-serif;
-  --sub-font4: 'Black Han Sans', sans-serif;
-
+  --sub-font: "Do Hyeon", sans-serif;
+  --sub-font2: "Kirang Haerang", cursive;
+  --sub-font3: "Roboto", sans-serif;
+  --sub-font4: "Black Han Sans", sans-serif;
 }
 
 #container {
@@ -25,7 +22,7 @@
 }
 
 .nav {
-  width: 40%;
+  width: 38%;
   height: 100vh;
   border: 2px solid #000;
   background: var(--main-color);
@@ -34,9 +31,8 @@
   position: relative;
 }
 
-
 .section {
-  width: 60%;
+  width: 62%;
   height: 100vh;
   display: flex;
   overflow-y: scroll;
@@ -45,7 +41,6 @@
 .gnbWrap {
   padding-top: 2%;
 }
-
 
 .gnbWrap li {
   display: flex;
@@ -58,7 +53,6 @@
   padding-left: 25%;
   justify-content: center;
 }
-
 
 /* logo */
 .logo {
@@ -80,33 +74,23 @@
 }
 
 .gnbWrap li a {
-  font-size: 6.7vw;
-  text-shadow: 15px 9px #000,
-    0 2px #000,
-    -2px 0 #000,
-    0 -2px #000,
-    2px 0 #000;
+  font-size: 6.3vw;
+  text-shadow: 15px 9px #000, 0 2px #000, -2px 0 #000, 0 -2px #000, 2px 0 #000;
   text-transform: uppercase;
   line-height: 1.4;
   color: var(--main-color);
   font-weight: 600;
   /* letter-spacing: -0.03em; */
   font-family: var(--sub-font4);
-
 }
 
 .gnbWrap li a:hover {
   padding-left: 3%;
   transition: all 0.3s ease;
   color: #000;
-  text-shadow: 15px 9px #343434,
-    0 2px #343434,
-    -2px 0 #343434,
-    0 -2px #343434,
+  text-shadow: 15px 9px #343434, 0 2px #343434, -2px 0 #343434, 0 -2px #343434,
     2px 0 #343434;
 }
-
-
 
 nav .link {
   display: flex;
@@ -120,8 +104,6 @@ nav .link a {
   font-size: 28px;
   text-transform: capitalize;
   line-height: 1.4;
-
-
 }
 
 nav .link a::before {
@@ -141,7 +123,6 @@ nav .link a:hover {
   flex-wrap: wrap;
   flex: 1;
   border-top: 2px solid;
-
 }
 
 .contentsWrap.hidden {
@@ -151,6 +132,7 @@ nav .link a:hover {
 .contentsWrap__content {
   width: 50%;
   height: 30%;
+  min-height: 240px;
   padding: 1.5% 3%;
   box-sizing: border-box;
   display: flex;
@@ -172,19 +154,19 @@ nav .link a:hover {
   background: var(--color-blue);
 }
 
-.contentsWrap__content:nth-child(5n+1) {
+.contentsWrap__content:nth-child(5n + 1) {
   background: var(--color-green);
 }
 
-.contentsWrap__content:nth-child(5n+2) {
+.contentsWrap__content:nth-child(5n + 2) {
   background: var(--color-purple);
 }
 
-.contentsWrap__content:nth-child(5n+3) {
+.contentsWrap__content:nth-child(5n + 3) {
   background: var(--color-red);
 }
 
-.contentsWrap__content:nth-child(5n+4) {
+.contentsWrap__content:nth-child(5n + 4) {
   background: var(--color-yellow);
 }
 
@@ -194,7 +176,6 @@ nav .link a:hover {
   background-position: center;
   background-repeat: no-repeat;
   border: 2px solid;
-
 }
 
 .contentsWrap__content .textouter {
@@ -204,10 +185,11 @@ nav .link a:hover {
 }
 
 .contentsWrap__content .title {
-  font-size: 28px;
-  FONT-WEIGHT: 600;
-  line-height: 1.4;
+  font-size: 1.8vw;
+  font-weight: 600;
+  line-height: 1.1;
   font-family: var(--sub-font2);
+  margin-top: 5%;
 }
 
 .contentsWrap__content .title img {
@@ -222,8 +204,8 @@ nav .link a:hover {
   border: 2px solid;
   display: block;
   margin-top: auto;
-  height: 50px;
-  width: 160px;
+  height: 22%;
+  width: 90%;
   font-size: 24px;
   display: flex;
   align-items: center;
@@ -239,21 +221,41 @@ nav .link a:hover {
 }
 
 /* 본문  */
-.detailWrap {}
-.titleWrap{
+.detailWrap {
+  width: 100%;
+}
+.titleWrap {
   height: 120px;
-  background:var(--color-yellow);
+  background: var(--color-yellow);
   border: 2px solid;
   border-left: none;
   padding: 2%;
   box-sizing: border-box;
 }
-.titleWrap h2{
-
+.titleWrap h2 {
+  font-size: 1.5em;
+  margin: 0.5em 0;
+  font-weight: 600;
 }
-.titleWrap .category{
-
+.titleWrap .category {
 }
-.titleWrap .date{
-
+.titleWrap .date {
+  margin-top: 1em;
+}
+.article {
+  background: var(--color-white);
+  padding: 5%;
+  box-sizing: border-box;
+}
+/* 외부 css */
+#tt-body-page h2[data-ke-size],
+#tt-body-page h3[data-ke-size] {
+  margin: 1em 0;
+}
+.hljs {
+  margin: 1em 0;
+}
+figure.imageblock,
+#tt-body-page figure.imageblock {
+  margin: 1em auto;
 }
