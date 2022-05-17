@@ -31,6 +31,7 @@
     <lengthOfLink>30</lengthOfLink>
     <showListOnCategory>1</showListOnCategory>
     <showListOnArchive>1</showListOnArchive>
+		<entriesOnPage>50</entriesOnPage>
     <commentMessage>
       <none>댓글이 없습니다.</none>
       <single>댓글 &lt;span class="cnt"&gt;하나&lt;/span&gt; 달렸습니다.</single>
@@ -45,19 +46,11 @@
       <activeColor>000000</activeColor>
       <activeBgColor>eeeeee</activeBgColor>
       <labelLength>27</labelLength>
-      <showValue>1</showValue>
+      <showValue>0</showValue>
     </tree>
     <contentWidth>500</contentWidth>
   </default>
   <variables>
-  	<variable>
-			<name>logoImage</name>
-			<label>로고</label>
-			<description></description>
-			<type>IMAGE</type>
-			<option></option>
-			<default></default>
-		</variable>
   	<variable>
 			<name>footerLink1Name</name>
 			<label>하단 링크1 이름</label>
