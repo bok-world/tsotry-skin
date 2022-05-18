@@ -636,12 +636,14 @@ figure.imageblock,
   .contentsWrap__content{
     width: 100%;
     padding: 3%;
+    min-height: 360px;
   }
   .contentsWrap__content .category{
     font-size: 1em;
   }
+
   .contentsWrap__content .title{
-    font-size: 7vw;
+    font-size: 6vw;
   }
   .contentsWrap__content:nth-child(odd){
     border-left: 2px solid;
@@ -678,12 +680,23 @@ figure.imageblock,
     background: var(--main-color);
     border: 2px solid;
     border-radius: 50%;
+    z-index: 999;
   }
 
-  
-
-
-
-
-
 }
+
+  @media screen and (max-width:425px) {
+    .contentsWrap__content {
+      height: 27%;
+      min-height: 240px;
+    }
+
+    .contentsWrap__content .category {
+      font-size: 1em;
+    }
+
+    .contentsWrap__content .title {
+      font-size: 7vw;
+    }
+  }
+
