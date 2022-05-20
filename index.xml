@@ -31,7 +31,7 @@
     <lengthOfLink>30</lengthOfLink>
     <showListOnCategory>1</showListOnCategory>
     <showListOnArchive>1</showListOnArchive>
-		<entriesOnPage>50</entriesOnPage>
+	<entriesOnPage>50</entriesOnPage>
     <commentMessage>
       <none>댓글이 없습니다.</none>
       <single>댓글 &lt;span class="cnt"&gt;하나&lt;/span&gt; 달렸습니다.</single>
@@ -51,7 +51,7 @@
     <contentWidth>500</contentWidth>
   </default>
   <variables>
-  	<variable>
+  		<variable>
 			<name>footerLink1Name</name>
 			<label>하단 링크1 이름</label>
 			<description></description>
